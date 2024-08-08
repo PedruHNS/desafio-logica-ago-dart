@@ -1,6 +1,6 @@
 ## Desafios de logica de programação com DART
 
-- [x]  1. O cardápio de uma lanchonete é o seguinte:
+- [ ]  1. O cardápio de uma lanchonete é o seguinte:
 
 |Especificação|Código|Preço|
 |-----------|-----------|-----------|
@@ -12,13 +12,13 @@
 | Refrigerante | 105 | 1,00 |
     a. Escreva um algoritmo que leia o código do item pedido, a quantidade e calcule o valor a ser pago por aquele lanche. Considere que a cada execução somente será calculado um item.
     b. Considerando o mesmo exercício, considere agora que o pedido final poderá incluir diversos itens.
-- [x]  2. Tendo como dados de entrada a altura e o sexo de uma pessoa, M = masculino e F = feminino, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+- [ ]  2. Tendo como dados de entrada a altura e o sexo de uma pessoa, M = masculino e F = feminino, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 
     a. para homens: (72.7*h) - 58.
 
     b. para mulheres: (62.1*h) - 44.7.
 
-- [x]  3. Um banco concederá um crédito especial aos seus clientes, variável com o saldo médio no último ano. Faça um algoritmo que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela abaixo. Mostre uma mensagem informando o saldo médio e o valor do crédito. (use o comando escolha-caso e não faça repetições)
+- [ ]  3. Um banco concederá um crédito especial aos seus clientes, variável com o saldo médio no último ano. Faça um algoritmo que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela abaixo. Mostre uma mensagem informando o saldo médio e o valor do crédito. (use o comando escolha-caso e não faça repetições)
 
 |Saldo médio|Percentual|
 |-------------|------------| 
@@ -27,11 +27,11 @@
 | de 401 a 600 | 30% do valor dosaldo médio |
 | acima de 601 | 40% do valor dosaldo médio |
 
-- [x]  4. Um usuário deseja um algoritmo onde possa escolher que tipo de média deseja calcular a partir de 3 valores. Faça um algoritmo que leia os valores, a opção escolhida pelo usuário e calcule a média.
+- [ ]  4. Um usuário deseja um algoritmo onde possa escolher que tipo de média deseja calcular a partir de 3 valores. Faça um algoritmo que leia os valores, a opção escolhida pelo usuário e calcule a média.
     1. aritmética
     2. ponderada (3,3,4)
     3. harmônica
-- [x] 5. Um vendedor necessita de um algoritmo que calcula o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo:
+- [ ] 5. Um vendedor necessita de um algoritmo que calcula o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo:
 
 | Código do Produto | Preço unitário |
 |-------------------|----------------|
@@ -40,7 +40,7 @@
 | 6548              | 2,37           |
 | 0987              | 5,32           |
 | 7623              | 6,45           |
-- [x] 6. Um vendedor precisa de um algoritmo que calcula o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo. Mostre uma mensagem no caso de código inválido.
+- [ ] 6. Um vendedor precisa de um algoritmo que calcula o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo. Mostre uma mensagem no caso de código inválido.
 
 | Código | Preço unitário |
 |--------|----------------|
