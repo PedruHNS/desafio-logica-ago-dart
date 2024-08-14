@@ -24,8 +24,8 @@
 |-------------|------------| 
 | de 0 a 200 | nenhum crédito |
 | de 201 a 400 | 20% do valor do saldo médio |
-| de 401 a 600 | 30% do valor dosaldo médio |
-| acima de 601 | 40% do valor dosaldo médio |
+| de 401 a 600 | 30% do valor do saldo médio |
+| acima de 601 | 40% do valor do saldo médio |
 
 - [ ]  4. Um usuário deseja um algoritmo onde possa escolher que tipo de média deseja calcular a partir de 3 valores. Faça um algoritmo que leia os valores, a opção escolhida pelo usuário e calcule a média.
     1. aritmética
