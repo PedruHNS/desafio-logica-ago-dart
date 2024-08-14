@@ -119,39 +119,62 @@ O algoritmo deve escrever o número do aluno, suas notas, a média dos exercíci
 
 ### Matchers de teste
 #### Core Matchers:
-* equals: Verifica se dois valores são iguais.
-* isNull: Verifica se o valor é nulo.
-* isNotNull: Verifica se o valor não é nulo.
-* isTrue: Verifica se o valor é verdadeiro.
-* isFalse: Verifica se o valor é falso.
-* same: Verifica se duas referências apontam para o mesmo objeto.
-* throwsA: Verifica se uma função lança uma exceção.
+* equals: Verifica se dois valores são iguais.</br>
+    `expect(actual, equals(expected))`
+* isNull: Verifica se o valor é nulo.</br>
+    `expect(actual, isNull);`
+* isNotNull: Verifica se o valor não é nulo.</br>
+    `expect(actual, isNotNull);`
+* isTrue: Verifica se o valor é verdadeiro.</br>
+    `expect(actual, isTrue);`
+* isFalse: Verifica se o valor é falso.</br>
+    `expect(actual, isFalse)`
+* throwsA: Verifica se uma função lança uma exceção.</br>
+    `expect(() => someFunction(), throwsA(isA<SomeException>()));`
+* throwsArgumentError: Verifica se uma função lança um erro de argumento.</br>
+    `expect(() => someFunction(), throwsArgumentError);`
 
 #### String Matchers:
-* contains: Verifica se uma string contém outra string.
-* startsWith: Verifica se uma string começa com outra string.
-* endsWith: Verifica se uma string termina com outra string.
-* matches: Verifica se uma string corresponde a uma expressão regular.
+* contains: Verifica se uma string contém outra string.</br>
+    `expect(actual, contains(expected));`
+* startsWith: Verifica se uma string começa com outra string.</br>
+    `expect(actual, startsWith(expected));`
+* endsWith: Verifica se uma string termina com outra string.</br>
+    `expect(actual, endsWith(expected));`
+* matches: Verifica se uma string corresponde a uma expressão regular.</br>
+    `expect(actual, matches(expected));`
 
 #### Collection Matchers:
-* isEmpty: Verifica se uma coleção está vazia.
-* isNotEmpty: Verifica se uma coleção não está vazia.
-* contains: Verifica se uma coleção contém um determinado elemento.
-* hasLength: Verifica se uma coleção tem um determinado tamanho.
+* isEmpty: Verifica se uma coleção está vazia.</br>
+    `expect(actual, isEmpty);`
+* isNotEmpty: Verifica se uma coleção não está vazia.</br>
+    `expect(actual, isNotEmpty);`
+* contains: Verifica se uma coleção contém um determinado elemento.</br>
+    `expect(actual, contains(expected));`
+* hasLength: Verifica se uma coleção tem um determinado tamanho.</br>
+    `expect(actual, hasLength(expectedLength));`
 
 #### Numeric Matchers:
-* greaterThan: Verifica se um número é maior que outro.
-* greaterThanOrEqualTo: Verifica se um número é maior ou igual a outro.
-* lessThan: Verifica se um número é menor que outro.
-* lessThanOrEqualTo: Verifica se um número é menor ou igual a outro.
+* greaterThan: Verifica se um número é maior que outro.</br>
+    `expect(actual, greaterThan(expected));`
+* greaterThanOrEqualTo: Verifica se um número é maior ou igual a outro.</br>
+    `expect(actual, greaterThanOrEqualTo(expected));`
+* lessThan: Verifica se um número é menor que outro.</br>
+    `expect(actual, lessThan(expected));`
+* lessThanOrEqualTo: Verifica se um número é menor ou igual a outro.</br>
+    `expect(actual, lessThanOrEqualTo(expected));`
 
 #### Custom Matchers:
-* predicate: Permite definir um matcher personalizado usando uma função que retorna um booleano.
-* anyOf: Verifica se qualquer um dos matchers fornecidos corresponde.
-* allOf: Verifica se todos os matchers fornecidos correspondem.
+* predicate: Permite definir um matcher personalizado usando uma função que retorna um booleano.</br>
+    `expect(actual, predicate((value) => value > 0));`
+* anyOf: Verifica se qualquer um dos matchers fornecidos corresponde.</br>
+    `expect(actual, anyOf([matcher1, matcher2]));`
+* allOf: Verifica se todos os matchers fornecidos correspondem.</br>
+    `expect(actual, allOf([matcher1, matcher2]));`
 
 #### Type Matchers:
-* isA<T>(): Verifica se o valor é uma instância do tipo T.
+* isA<T>(): Verifica se o valor é uma instância do tipo T.</br>
+    `expect(actual, isA<T>());`
 
 
 
