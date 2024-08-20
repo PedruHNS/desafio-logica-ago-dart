@@ -1,6 +1,3 @@
-
-import 'dart:developer';
-
 class Account {
   final double averageBalance;
 
@@ -25,4 +22,3 @@ class Account {
     }
   }
 }
-

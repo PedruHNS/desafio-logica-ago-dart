@@ -18,7 +18,7 @@
 
     b. para mulheres: (62.1*h) - 44.7.
 
-- [ ]  3. Um banco concederá um crédito especial aos seus clientes, variável com o saldo médio no último ano. Faça um algoritmo que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela abaixo. Mostre uma mensagem informando o saldo médio e o valor do crédito. (use o comando escolha-caso e não faça repetições)
+- [x]  3. Um banco concederá um crédito especial aos seus clientes, variável com o saldo médio no último ano. Faça um algoritmo que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela abaixo. Mostre uma mensagem informando o saldo médio e o valor do crédito. (use o comando escolha-caso e não faça repetições)
 
 |Saldo médio|Percentual|
 |-------------|------------| 
@@ -27,7 +27,7 @@
 | de 401 a 600 | 30% do valor do saldo médio |
 | acima de 601 | 40% do valor do saldo médio |
 
-- [ ]  4. Um usuário deseja um algoritmo onde possa escolher que tipo de média deseja calcular a partir de 3 valores. Faça um algoritmo que leia os valores, a opção escolhida pelo usuário e calcule a média.
+- [x]  4. Um usuário deseja um algoritmo onde possa escolher que tipo de média deseja calcular a partir de 3 valores. Faça um algoritmo que leia os valores, a opção escolhida pelo usuário e calcule a média.
     1. aritmética
     2. ponderada (3,3,4)
     3. harmônica
