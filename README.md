@@ -31,7 +31,7 @@
     1. aritmética
     2. ponderada (3,3,4)
     3. harmônica
-- [ ] 5. Um vendedor necessita de um algoritmo que calcula o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo:
+- [x] 5. Um vendedor necessita de um algoritmo que calcula o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo:
 
 | Código do Produto | Preço unitário |
 |-------------------|----------------|
