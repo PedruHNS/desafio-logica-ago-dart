@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:desafio_logica_ago/desafio7/calculadora_model.dart';
 
 void main() {
-  final calculadora = Calculadora();
+  final calculadora = CalculadoraModel();
 
   print('Digite o código do cargo:');
   final cod = stdin.readLineSync() ?? '';
