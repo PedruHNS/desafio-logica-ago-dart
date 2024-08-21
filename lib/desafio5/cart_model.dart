@@ -19,7 +19,7 @@ class Cart {
     myCart.forEach(print);
   }
 
-  void addProduct({required String cod, required int stock}) {
+  void addProduct({required String cod, required int qtd}) {
     final product = products.firstWhere(
       (element) => element.cod == cod,
       //se não encontrar o produto, retorna um produto vazio
@@ -28,7 +28,7 @@ class Cart {
     if (product.cod.isEmpty) {
       print('Produto não encontrado');
     } else {
-      myCart.add(Product(cod: cod, price: product.price, stock: stock));
+      myCart.add(Product(cod: cod, price: product.price, quantity: qtd));
       print('Produto adicionado ao carrinho');
     }
   }
@@ -36,7 +36,7 @@ class Cart {
   double get totalPrice {
     return myCart.fold<double>(
       0.0,
-      (total, product) => total + (product.price * product.stock!),
+      (total, product) => total + (product.price * product.quantity!),
     );
   }
 }
